@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+
+li{
+    display: inline;
+    margin-left: 40px;
+}
+
+
+ul{
+    margin-left: 1250px;
+    margin-top: -30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.judul{
+    color:white;
+    font-size: 40px;
+    margin-left: 50px;
+    font-style: normal;
+}
+
+div{
+    float: left;
+}
+
+img{
+    width: 180px;
+    height: 260px;
+    margin-top: 50px;
+    padding-left: 50px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 80%;
+    transform: translateY(3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game-name{
+    color: white;
+    margin-left: 53px;
+}
